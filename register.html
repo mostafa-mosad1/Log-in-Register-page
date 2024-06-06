@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/register.css" />
+  </head>
+  <body class="vh-100 d-flex  align-items-center">
+    <div class="container-fluid">
+      <div class="row my-class rounded overflow-hidden">
+        <div
+          class="col-md-7 ps-0 py-0 my-img d-flex align-items-center justify-content-center"
+        >
+          <h1 class="text-center text-success fs-1 mt-">
+            meanlifys <span class="text-danger">.</span>
+          </h1>
+        </div>
+        <div class="col-md-5 p-3">
+          <div class="des">
+            <form action="">
+              <div class="form-floating mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  placeholder=""
+                />
+                <label for="name">Full Name</label>
+                <div class="valid-feedback">Looks good!</div>
+                <div class="invalid-feedback">Please choose a name.</div>
+              </div>
+              <div class="form-floating mb-3">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="name@example.com"
+                />
+                <label for="email">Email address</label>
+                <div class="valid-feedback">Looks good!</div>
+                <div class="invalid-feedback">Please choose a email.</div>
+              </div>
+              <div class="form-floating mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="userNmae"
+                  placeholder="userNmae"
+                />
+                <label for="userNmae">User Name</label>
+                <div class="valid-feedback">Looks good!</div>
+                <div class="invalid-feedback">Please choose a username.</div>
+              </div>
+              <div class="form-floating mb-3">
+                <input
+                  type="password"
+                  class="form-control"
+                  id="pass"
+                  placeholder=""
+                />
+                <label for="pass">Password</label>
+                <div class="valid-feedback">Looks good!</div>
+                <div class="invalid-feedback">Please choose a Password.</div>
+              </div>
+
+              <div class="fs-3 mb-2 fw-bold msg"></div>
+
+              <div>
+                <input id="check" type="checkbox" />
+                <label class="lead text-white" for="check"
+                  >i agree to the
+                  <span class="fs-5 fw-bold">Tems of User</span></label
+                >
+              </div>
+
+              <div class="mt-3">
+                <button
+                  class="btn bg-white text-black d-block btn-outline-success w-100 m-auto p-2 fs-5 rounded-pill Sign_up"
+                >
+                  Sign up
+                </button>
+                <p
+                  class="btn d-block m-auto mt-2 text-white w-100 fs-4 Sign_in"
+                >
+                  You have an account? Signin
+                </p>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="js/register.js"></script>
+  </body>
+</html>

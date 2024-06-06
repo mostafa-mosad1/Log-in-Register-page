@@ -1,0 +1,29 @@
+body{
+  /* background-color: rgba(0, 0, 0, 0.733); */
+  background-image: url(../images/log.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.form {
+  padding-block: 100px;
+}
+.my-class {
+  overflow: hidden;
+  width: 80%;
+  margin: auto;
+  margin-top: 10vh;
+  box-shadow: 0px 0px 20px white;
+  background-color: rgba(33, 78, 15, 0.925);
+}
+
+.item-img{
+  background-image: url(../images/log.jpg);
+height: 100%;
+width: 102%;
+  background-size: cover;
+  background-position: center;
+}
+
+.Sign_in:hover{
+  background-color: rgba(33, 78, 15, 0.925) !important;
+}

@@ -1,0 +1,23 @@
+body{
+  background-image: url(../images/log.jpg);
+  background-position: center center;
+  background-size: cover;
+  }
+  .my-class {
+    width: 80%;
+    margin: auto;
+    box-shadow: 0px 0px 20px white;
+    background-color: rgba(33, 78, 15, 0.925);
+  }
+  
+  
+
+  .container-fluid .row .my-img{
+    background-image: url(../images/log.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .Sign_up:hover{
+    background-color: rgba(33, 78, 15, 0.925) !important;
+  }

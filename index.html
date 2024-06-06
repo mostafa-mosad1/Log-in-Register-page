@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Log-In</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row bg-opacity-75 my-class">
+        <div class="col-md-6 form">
+          <div class="des">
+            <h2 class="text-white text-center mb-3">Welcome Back</h2>
+            <form action="">
+              <div class="form-floating mb-3">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="name@example.com"
+                />
+                <label for="email">Email address</label>
+                <div class="valid-feedback">Looks good!</div>
+                <div class="invalid-feedback">Please sure your email.</div>
+              </div>
+
+              <div class="form-floating mb-3">
+                <input
+                  type="password"
+                  class="form-control"
+                  id="pass"
+                  placeholder=""
+                />
+                <label for="pass">Password</label>
+                <div class="valid-feedback">Looks good!</div>
+                <div class="invalid-feedback">Please sure your password.</div>
+              </div>
+
+              <div class="fs-3 mb-2 fw-bold msg"></div>
+
+              <div>
+                <input id="check" type="checkbox" />
+                <label class="lead text-white" for="check"
+                  >i agree to the
+                  <span class="fs-5 fw-bold">Tems of User</span></label
+                >
+              </div>
+              <button
+                class="btn bg-white text-black d-block btn-outline-success w-100 m-auto p-2 fs-5 rounded-pill mt-4 Sign_in"
+              >
+                Sign in
+              </button>
+
+              <p class="btn d-block m-auto mt-2 text-white w-100 fs-4 Sign_up">
+                You have an account? Sign_up
+              </p>
+            </form>
+          </div>
+        </div>
+        <div class="d-sm-none d-md-block col-md-6">
+          <div
+            class="item-img d-flex align-items-center justify-content-center"
+          >
+            <h1 class="text-center text-success fs-1 mt-">
+              meanlifys <span class="text-danger">.</span>
+            </h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
