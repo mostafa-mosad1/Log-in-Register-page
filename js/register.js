@@ -56,12 +56,10 @@ sign_up.addEventListener(`click`, function (e) {
     validationPassword()
   ) {
     userData();
+    location.href = "index.html";
   }
 });
-sign_in.addEventListener(`click`, function (e) {
-  e.preventDefault();
-  location.href = "index.html";
-});
+
 
 inputs[0].addEventListener(`input`, function (e) {
   validationName();

@@ -1,6 +1,6 @@
 body{
-  /* background-color: rgba(0, 0, 0, 0.733); */
-  background-image: url(../images/log.jpg);
+ 
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../images/log.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -19,7 +19,7 @@ body{
 .item-img{
   background-image: url(../images/log.jpg);
 height: 100%;
-width: 102%;
+width: 105%;
   background-size: cover;
   background-position: center;
 }

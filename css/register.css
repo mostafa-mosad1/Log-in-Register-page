@@ -1,5 +1,5 @@
 body{
-  background-image: url(../images/log.jpg);
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../images/log.jpg);
   background-position: center center;
   background-size: cover;
   }
